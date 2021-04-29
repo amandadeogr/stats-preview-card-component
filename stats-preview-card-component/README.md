@@ -14,7 +14,7 @@ Users should be able to:
 
 ### Links
 - Solution URL: https://www.frontendmentor.io/solutions/stats-preview-card-component-F0J7bjH7W
-- Live Site URL: https://stats-preview-card-component-lwn8llqlp-amandadeogr.vercel.app/
+- Live Site URL: https://stats-preview-card-component-five.vercel.app/
 
 
 ### Built with
