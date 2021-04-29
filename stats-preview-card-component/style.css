@@ -1,0 +1,143 @@
+.attribution { font-size: 11px; 
+  text-align: center; 
+}
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+body {
+  background-color: #090b1a;
+  font-size: 1em;
+  color: white;
+}
+
+.container {
+  background-color: #1b1938;
+  width: 75%;
+  height: 63vh;
+  margin: 150px auto;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 10px;
+}
+
+.contents-left, .container-statistics {
+  align-items: center;
+  display: flex;
+}
+
+.contents-left {
+  min-width: 50%;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.container-texts, .container-statistics {
+  max-width: 70%;
+  min-width: 70%;
+}
+
+.contents-left h1, p, .numbers {
+  font-family: 'Inter', sans-serif;
+}
+
+.contents-left h1 {
+  font-size: 2.1em;
+  color:hsl(0, 0%, 100%);
+}
+
+.contents-left p{
+  font-weight: 400;
+  font-size: 1.1em;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+
+.container-statistics {
+  justify-content: space-evenly;
+  margin-top: 5%;
+}
+
+.container-statistics .statistics {
+  width: 30%;
+  text-transform: uppercase;
+  font-family: 'Lexend Deca', sans-serif;
+  letter-spacing: 1px;
+  font-size: .8em;
+}
+
+.contents-right, img {
+  border-radius: 0 10px 10px 0;
+}
+
+.contents-right {
+  min-width: 50%;
+  height: auto;
+  background-color: hsl(277, 64%, 61%);
+}
+  
+
+img {
+  opacity: 0.4;
+  width: 100%;
+  height: 100%;
+}
+
+
+@media (max-width: 1440px) {
+
+  .container {
+    height: 500px;
+  }
+
+  .contents-left h1 {
+    font-size: 2em;
+  }
+
+  .contents-left p {
+    font-size: 1em;
+  }
+  
+  .container-statistics .statistics {
+    font-size: .7em;
+  }
+}
+
+
+
+@media (max-width: 1200px) {
+  .container {
+    flex-direction: column-reverse;
+    height: auto;
+  }
+
+  .container-statistics {
+    margin-bottom: 30px;
+  }
+  
+  .container-statistics .statistics {
+    margin-bottom: 20px;
+  }
+
+  .contents-right, img {
+    border-radius: 10px 10px 0 0 ;
+  }
+}
+
+
+@media (max-width: 713px) {
+  .container {
+    text-align: center;
+  }
+
+  .contents-left h1 {
+    font-size: 1.5em;
+  }
+
+  .container-statistics  {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    
+  }
+}
